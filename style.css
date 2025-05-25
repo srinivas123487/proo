@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffffd9;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.center-heading {
+  font-size: 2.5em;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #f7f9fc;
+  border-left: 5px solid #6a11cb;
+  border-radius: 10px;
+}
+
+.education-item, .project-item {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #e6f0ff;
+  border-left: 4px solid #3f87a6;
+  border-radius: 8px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.two-cols {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.two-cols div {
+  flex: 1;
+  background-color: #f0fff4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 0.9em;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links li a {
+  color: #333;
+  background: #f0f0f0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.social-links li a:hover {
+  background: #6dd5ed;
+  color: #fff;
+}
